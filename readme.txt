@@ -3,6 +3,10 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 ProfitMag WordPress Theme, Copyright 2014 Gaint Themes
 ProfitMag is distributed under the terms of the GNU GPL v3
 
+Original Developer
+------------------
+Nick Hargreaves
+http://www.nickhargreaves.com
 
 Install Steps:
 --------------
