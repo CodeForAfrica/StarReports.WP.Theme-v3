@@ -103,9 +103,9 @@ if( 'page' == get_option( 'show_on_front' ) ) {
                         <div class="featured-post clearfix">
 
                         <h3 class="feature-main-title<?php if($i%2==0)echo ' feature-main-title-even';?>"><?php print $p->post_title;?> </h3>
-                        <figure class="post-thumb clearfix">
-                            <?php echo get_the_post_thumbnail( $p->ID, 300, 'thumbnail' );?>
-                        </figure></a>
+                            <figure class="post-thumb clearfix">
+                                <?php echo get_the_post_thumbnail( $p->ID, 300, 'thumbnail' );?>
+                            </figure>
 
                         <div class="post-desc clearfix">
                             <?php
