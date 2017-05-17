@@ -88,7 +88,7 @@ if( 'page' == get_option( 'show_on_front' ) ) {
                     'orderby'          => 'post_date',
                     'order'            => 'DESC',
                     'post_type'        => 'post',
-                    'post_status'      => 'publish',
+                    'post_status'      => 'post',
                     'suppress_filters' => true
                 );
                 $posts_array = get_posts( $args );

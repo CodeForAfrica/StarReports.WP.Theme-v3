@@ -26,7 +26,8 @@
 <div id="page" class="hfeed site">
 	
 
-	<header id="masthead" class="site-header clearfix" role="banner">
+<!--	<header id="masthead" class="site-header clearfix" role="banner">-->
+        <header role="banner">
         <div class="top-header-block clearfix">
             <div class="wrapper">
 
@@ -61,35 +62,31 @@
              </div>          
          </div><!-- .top-header-block -->
         <header id="topbar">
-            <div class="download_app">
-                <a href="https://play.google.com/store/apps/details?id=org.codeforafrica.starreports" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/gplay.png"> Get the app on Play Store & start submitting reports</a>
+            <div class="date-section">
+                <?php date_default_timezone_set("Africa/Nairobi"); echo date('l, M j<\sup>S</\sup> Y');?>
             </div>
             <ul>
                 <li class="first leaf classic-105 mid-1819"><a href="http://www.ustream.tv/channel/classic105-kenya?utm_campaign=JPER&amp;utm_medium=FlashPlayer&amp;utm_source=embed" title="" target="_blank">Classic 105</a></li>
                 <li class="leaf east-fm mid-1822"><a href="http://www.ustream.tv/channel/east-fm?utm_campaign=JPER&amp;utm_medium=FlashPlayer&amp;utm_source=embed" title="" target="_blank">East fm</a></li>
                 <li class="leaf kiss-100 mid-1818"><a href="http://www.ustream.tv/channel/kiss100-kenya?utm_campaign=JPER&amp;utm_medium=FlashPlayer&amp;utm_source=embed" title="" target="_blank">Kiss 100</a></li>
                 <li class="leaf radio-jambo mid-1820"><a href="http://www.ustream.tv/channel/radiojambo-fm?utm_campaign=JPER&amp;utm_medium=FlashPlayer&amp;utm_source=embed" title="" target="_blank">Radio Jambo</a></li>
-                <li class="last leaf xfm mid-1821"><a href="http://www.ustream.tv/channel/xfm-kenya?utm_campaign=JPER&amp;utm_medium=FlashPlayer&amp;utm_source=embed" title="" target="_blank">XFM</a></li>
+                <li class="last leaf xfm mid-1821"><a href="http://www.ustream.tv/channel/xfm-kenya?utm_campaign=JPER&amp;utm_medium=FlashPlayer&amp;utm_source=embed" title="" target="_blank">MPASHO</a></li>
             </ul>
         </header>
         <div class="wrapper header-wrapper clearfix">
 
         		<div class="header-container">
                     <div class="site-branding clearfix">
-            			<div class="site-logo f-left">
+            			<div class="f-left brand-image">
                             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
                                 <?php if( get_header_image() ): ?>
                                     <img src="<?php header_image(); ?>" alt="<?php bloginfo('name') ?>" />
                                 <?php else: ?>
-                                    <img src="<?php echo get_template_directory_uri().'/images/logo.png'; ?>" >
+                                    <img src="<?php echo get_template_directory_uri().'/images/logo-big.png'; ?>" >
                                 <?php endif; ?>
                             </a>
                         </div>
                         <div class="span4" style="float:right;width:280px !important;">
-
-                            <div class="date-section">
-                                <?php date_default_timezone_set("Africa/Nairobi"); echo date('l, M j<\sup>S</\sup> Y');?>
-                            </div>
                             <div class="search-block">
                                 <?php echo get_search_form(); ?>
                             </div>

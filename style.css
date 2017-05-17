@@ -421,7 +421,7 @@ Galleries
 }
 
 .clearfix:after, .clearfix:before{ display:table; content:""}
-.clearfix:after{ clear:both};
+.clearfix:after{ clear:both}
 .clearfix{*zoom:1}
 *{ box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
 
@@ -697,7 +697,7 @@ i.fa{
 .header-wrapper .search-block #searchsubmit, .widget_search #searchsubmit{
 	background: url(images/search.png) no-repeat;
 	border: none;
-	cursor: transparent;
+	cursor: default;
 	font: 0/0 a;
 	height: 15px;
 	position: absolute;
@@ -1722,7 +1722,8 @@ zoom: 1;
 }
 
 .comment-form textarea{
-	width:77%display: block;;
+	width:77%;
+	display: block;;
 	border: 1px solid #d9d9d9;
 	resize:none;
 	color: #b8b8b8;
